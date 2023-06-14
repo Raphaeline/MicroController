@@ -2,16 +2,16 @@
 int A = 2;
 int B = 3;
 int C = 4;
-int D = 6;
-int DP = 5;
+int D = 5;
+int DP = 6;
 int E = 7;
 int F = 8;
 int G = 9;
 
-//pemberian status untuk push buttons pins, push buttons states, dan counter
+//pemberian status untuk push buttons pins, push buttons states, dan counterc
 int switchUpPin = 13;
-int switchDownPin = 12;
-int resetPin = 11;
+int switchDownPin = 11;
+int resetPin = 12;
 int counter = 0;
 int buttonUpState = 0;
 int lastButtonUpState = 0;
